@@ -2,8 +2,7 @@ scheme. пригодится
 =========
 
     #lang scheme
-	(include "path/to/file.scm")
-
+	(require "path/to/file.scm")
 
 factorial(num)
 ---------
@@ -64,3 +63,7 @@ matrix-min(matrix)
 
 	Возвращает минимальный элемент матрицы из чисел
 
+list-index(member, lst)
+---------
+
+	Вычисляет позицию элемента member в списке lst
