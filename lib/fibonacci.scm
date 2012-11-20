@@ -1,5 +1,6 @@
 #lang scheme
 
+(provide fibonacci)
 (define (fibonacci num)	;; @param(number)
  (cond
   ((= num 0) 0)
