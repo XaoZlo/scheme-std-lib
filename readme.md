@@ -53,12 +53,12 @@ print-matrix(matrix)
 
 	Печатает на экран матрицу, используя циклы
 
-matrix-max(matrix)
+matrix-max(matrix) & matrix-max! (matrix)
 ----------
 
 	Возвращает максимальный элемент матрицы из чисел
 
-matrix-min(matrix)
+matrix-min(matrix) & matrix-min! (matrix)
 ----------
 
 	Возвращает минимальный элемент матрицы из чисел
@@ -67,3 +67,9 @@ list-index(member, lst)
 ---------
 
 	Вычисляет позицию элемента member в списке lst
+
+exec!(function param1 param2)
+---------
+
+	макрос, старт функции function с двумя параметрами
+
