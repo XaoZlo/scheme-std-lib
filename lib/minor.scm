@@ -4,9 +4,7 @@
 (require "get.scm")
 (require "push-pop.scm")
 
-(define matrix '((1 2 3) (4 5 6) (7 8 9)))
-(print-matrix matrix)
-
+(provide minor)
 (define (minor matrix row col)
  (let ((ret '()))
   (do
@@ -25,6 +23,3 @@
   (print-matrix ret)
  )
 )
-
-(newline)
-(minor matrix 1 1)
